@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+body, h1, h2, h3, h4, h5, h6, span, a, strong, sub, sub{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    width:100%;
+}
+.n_btn{
+    background: none;
+    color: #fb5700;
+    border: 1px solid #fdb186;
+    margin-left: 33px;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    transition-duration: .8s;
+}
+.n_btn:hover{
+    background:#fb5700;
+    color: #fff;
+    border: 1px solid #fdb186;
+}
+.n_logo {
+    color: #fb6411;
+    border: 1px solid #fb6411;
+    padding: 7px 2px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.banner{
+    background-image: url(./img/ia_200000012.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0 ,0.3);
+    z-index: -1;
+    
+}
+.banner_content{}
+.banner_content h4 {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.banner_content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 43px;
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+    padding: 30px 0;
+}
+.banner_content a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #b75a25;
+    padding: 7px 22px;
+    border-radius: 7px;
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+    font-size:20px;
+    transition:.7s;
+}
+.banner_content a:hover{
+    box-shadow: 3px 3px 27px -3px #6278df;
+    border-color: #6278df;
+    color: #ee6617;
+}
+
+
+
+.teacing{
+    background: #f7f9ff;
+}
+.t_content h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 60px;
+    padding-bottom: 31px;
+}
+.t_content p {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    color: #28262f;
+}
+.t_img {
+    padding: 30px 0 53px 30px;
+}
+.t_img img {
+    padding: 7px;
+}
+
+/*top-cource*/
+.top-cource{
+    
+}
+.t_c {
+    height: 260px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.cource_img img {
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+.t_c .cource_img{
+    width: 40%;
+}
+.t_c .cource_content {
+    margin-left: 20px;
+    width:60%;
+}
+.t_c .cource_content h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.t_c .cource_content p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.t_c .cource_content button {
+    background: none;
+    color: #fa684b;
+    border: 1px solid #fc8f50;
+    transition:.6s;
+}
+.t_c .cource_content button:hover{
+    box-shadow: 3px 3px 27px -3px #6278df;
+    background:none;
+}
+
+/*pricing section css*/
+.pricing{
+    background: #f7f9ff;
+}
+.price{}
+.price h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.price strong {
+    font-size: 18px;
+    font-weight: 300;
+    opacity: .6;
+}
+
+/*teacher box css*/
+.t_title h1 {
+    text-transform: capitalize;
+    font-size: 43px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.t_img_box{
+    
+}
+.t_img_box.teacher_img{
+   
+}
